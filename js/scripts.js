@@ -1,7 +1,7 @@
 
-var buttons = document.getElementsByClassName('btn'){
+var buttons = document.getElementsByClassName('btn');
 
-    for (let i=0; i<buttons.length; i++) { 
-        alert();
-    } 
-};
+for (var i=0; i<buttons.length; i++) { 
+    alert();
+} 
+
