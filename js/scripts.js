@@ -1,7 +1,15 @@
+var buttons = document.getElementsByClassName("button");
 
-var buttons = document.getElementsByClassName('btn');
+//console.log(buttons);
 
-for (var i=0; i<buttons.length; i++) { 
-    alert();
+var btnLength = buttons.length;
+var btnOne = buttons[0].innerText;
+var btnTwo = buttons[1].innerText;
+var btnThree = buttons[2].innerText;
+
+var buttonText = btnOne + btnTwo + btnThree;
+
+for (var i = 0; i < btnLength; i++) { 
+    alert(buttonText);
 } 
 
